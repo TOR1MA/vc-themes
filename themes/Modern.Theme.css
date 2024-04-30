@@ -1,7 +1,7 @@
 /**
  * @name Modern Theme
- * @author Alexis, Onkoofthewired
- * @version 1.0.0
+ * @author Alexis, Onkoofthewired, TOR1MA
+ * @version 1.0.1
  * @description Modern theme for discord by Alexis
  * @invite UCjfmS9mN5
  */
@@ -27,4 +27,13 @@
     --rs-medium-spacing: 3px; /* Gap between avatar and status for User popout | MUST end in px */
     --rs-large-spacing: 4px; /* Gap between avatar and status for User profiles | MUST end in px */
 }
-
+div[class^=userPopoutOverlayBackground]
+>div[class^=scroller]
+>div[class^=section]:nth-child(3)
+>div
+>h2[class^=defaultColor]{
+    color: #bdbdbd !important;
+}
+.vc-uvs-header {
+    color: #bdbdbd;
+}
