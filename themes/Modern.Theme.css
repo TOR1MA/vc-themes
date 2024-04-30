@@ -5,7 +5,7 @@
  * @description Modern theme for discord by Alexis
  * @invite UCjfmS9mN5
  */
- 
+
 @import url("https://onkofonko.github.io/theme/fixedsource.css");
 @import url("https://onkofonko.github.io/theme/fixes.css"); 
 :root {
@@ -42,5 +42,12 @@ div[class^=userPopoutOverlayBackground]
 }
     /*In a voice channel*/
 .vc-uvs-header {
+    color: #bdbdbd !important;
+}
+    /*Permissions Header*/
+div[class^=userPopoutOverlayBackground]
+>div[class^=scroller]
+>div[style^=display]
+>h2[class^=defaultColor]{
     color: #bdbdbd !important;
 }
