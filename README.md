@@ -6,3 +6,4 @@
 - Remove nitro gift and shop button
 - Remove scroll bar
 - Replace newbie badge with shiggy
+- Remove Invite button in user context menu
