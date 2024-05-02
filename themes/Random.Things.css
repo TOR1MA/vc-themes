@@ -42,3 +42,7 @@ button[aria-label="Send a gift"] {
     transform: scale(0.32) translate(-100%, -110%);
     display: inline-block;
 }
+   /*Remove Invite button in user context menu*/
+#user-context-invite-to-server {
+  display: none;
+}
