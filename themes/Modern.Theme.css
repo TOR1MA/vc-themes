@@ -29,13 +29,40 @@
 div[class^=userPopoutOverlayBackground]
 >div[class^=scroller]
 >div[class^=section]:has(>div)
->div:has(>div[class^=memberSinceWrapper])
+>div:has(>h2[class^=defaultColor])
+>h2[class^=defaultColor]{
+    color: #bdbdbd !important;
+}
+    /*Боковая*/
+div[class^=overlayBackground]
+>div[class^=section]:has(>div)
+>div:has(>h2[class^=defaultColor])
+>h2[class^=defaultColor]{
+    color: #bdbdbd !important;
+}
+    /*Friend Since*/
+    /*Всплывающие*/
+div[class^=userPopoutOverlayBackground]
+>div[class^=scroller]
+>div:has(>h2[class^=defaultColor])
+>h2[class^=defaultColor]{
+    color: #bdbdbd !important;
+}
+    /*Полный экран*/
+div[class^=userInfoSection]
+>div:has(>div[class^=section])
+>div[class^=section]
+>h1[class^=defaultColor]{
+    color: #bdbdbd !important;
+}
+    /*Боковая*/
+div[class^=overlayBackground]
+>div[class^=section]:has(>div[class^=memberSinceWrapper])
 >h2[class^=defaultColor]{
     color: #bdbdbd !important;
 }
     /*Mutuals Friends/Servers*/
-div[class^=userPopoutOverlayBackground]
->div[class^=scroller]
+div[class^=overlayBackground]
 >div[class^=mainContainer]:has(>div[class^=compactItemContainer])
 >h2[class^=defaultColor]{
     color: #bdbdbd !important;
