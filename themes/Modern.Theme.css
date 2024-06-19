@@ -78,3 +78,7 @@ div[class^=userPopoutOverlayBackground]
 >h2[class^=defaultColor]{
     color: #bdbdbd !important;
 }
+.timestamp_ec86aa, 
+.timestampInline_ec86aa {
+    opacity: 0.5;
+}
