@@ -25,60 +25,13 @@
     --rs-medium-spacing: 3px; /* Gap between avatar and status for User popout | MUST end in px */
     --rs-large-spacing: 4px; /* Gap between avatar and status for User profiles | MUST end in px */
 }
-    /*Member Since*/
-div[class^=userPopoutOverlayBackground]
->div[class^=scroller]
->div[class^=section]:has(>div)
->div:has(>h2[class^=defaultColor])
->h2[class^=defaultColor]{
-    color: #bdbdbd !important;
-}
-    /*Боковая*/
-div[class^=overlayBackground]
->div[class^=section]:has(>div)
->div:has(>h2[class^=defaultColor])
->h2[class^=defaultColor]{
-    color: #bdbdbd !important;
-}
-    /*Friend Since*/
-    /*Всплывающие*/
-div[class^=userPopoutOverlayBackground]
->div[class^=scroller]
->div:has(>h2[class^=defaultColor])
->h2[class^=defaultColor]{
-    color: #bdbdbd !important;
-}
-    /*Полный экран*/
-div[class^=userInfoSection]
->div:has(>div[class^=section])
->div[class^=section]
->h1[class^=defaultColor]{
-    color: #bdbdbd !important;
-}
-    /*Боковая*/
-div[class^=overlayBackground]
->div[class^=section]:has(>div[class^=memberSinceWrapper])
->h2[class^=defaultColor]{
-    color: #bdbdbd !important;
-}
-    /*Mutuals Friends/Servers*/
-div[class^=overlayBackground]
->div[class^=mainContainer]:has(>div[class^=compactItemContainer])
->h2[class^=defaultColor]{
-    color: #bdbdbd !important;
-}
     /*In a voice channel*/
 .vc-uvs-header {
     color: #bdbdbd !important;
 }
-    /*Permissions Header*/
-div[class^=userPopoutOverlayBackground]
->div[class^=scroller]
->div[style^=display]
->h2[class^=defaultColor]{
-    color: #bdbdbd !important;
+[class^=timestamp] {
+    opacity: 0.5;
 }
-.timestamp_ec86aa, 
-.timestampInline_ec86aa {
+[class^=timestampInline] {
     opacity: 0.5;
 }
