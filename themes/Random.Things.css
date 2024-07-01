@@ -42,9 +42,22 @@ button[aria-label="Send a gift"] {
     transform: scale(0.32) translate(-100%, -110%);
     display: inline-block;
 }
+   /*Invite to server in ures context menu*/
 #user-context-invite-to-server {
   display: none;
 }
 #channel-context-transfer-xbox-3072567030782063 {
   display: none;
+}
+   /* Unclamp bio length in user popout */
+[class^="descriptionClamp_"] {
+    display: block!important;
+    max-height: unset!important;
+}
+[class^="viewFullBio_"] {
+        display: none;
+}
+   /*Friend status in profile*/
+[class*="biteSize_"] :is([aria-label="Add Friend"], [aria-label="Friends"]) {
+    display: none;
 }
