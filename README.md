@@ -7,3 +7,5 @@
 - Remove scroll bar
 - Replace newbie badge with shiggy
 - Remove Invite button in user context menu
+- Unclamp bio length in user popout
+- Remove friend status in profile
