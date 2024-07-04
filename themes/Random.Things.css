@@ -25,31 +25,31 @@
     --rs-phone-visible: none; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
 }
 
-    /*нахуй нитро*/
+    /*remove nitro ad*/
 [data-list-item-id*="__shop"], [data-list-item-id*="__nitro"] {display: none;}
 button[aria-label="Send a gift"] {
   display: none;
 }
 
-    /*Скрол*/
+    /*scroll*/
 ::-webkit-scrollbar-thumb {visibility: hidden;}
 ::-webkit-scrollbar-track {visibility: hidden;}
 [class^="imageWrapper_"] img[class^="lazyImg"] { object-fit: contain !important; }
 
-   /*Newbie badge*/
+   /*newbie badge*/
 [class*=newMemberBadge]:before {
     content: url(https://cdn.discordapp.com/emojis/1024751291504791654.gif?size=64&quality=lossless); /* shiggy img here */
     transform: scale(0.32) translate(-100%, -110%);
     display: inline-block;
 }
-   /*Invite to server in ures context menu*/
+   /*invite to server in user context menu*/
 #user-context-invite-to-server {
   display: none;
 }
 #channel-context-transfer-xbox-3072567030782063 {
   display: none;
 }
-   /* Unclamp bio length in user popout */
+   /*unclamp bio length in user popout*/
 [class^="descriptionClamp_"] {
     display: block!important;
     max-height: unset!important;
@@ -57,7 +57,7 @@ button[aria-label="Send a gift"] {
 [class^="viewFullBio_"] {
         display: none;
 }
-   /*Friend status in profile*/
+   /*friend status in profile*/
 [class*="biteSize_"] :is([aria-label="Add Friend"], [aria-label="Friends"]) {
     display: none;
 }
