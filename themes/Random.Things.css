@@ -50,11 +50,11 @@ button[aria-label="Send a gift"] {
   display: none;
 }
    /*unclamp bio length in user popout*/
-[class^="descriptionClamp_"] {
+[class^=descriptionClamp] {
     display: block!important;
     max-height: unset!important;
 }
-[class^="viewFullBio_"] {
+[class^=viewFullBio_] {
         display: none;
 }
    /*friend status in profile*/
@@ -70,12 +70,9 @@ button[aria-label="Send a gift"] {
     display: none;
 }
    /*remove edit profile button*/
-[class*="footer"]:has(>div[aria-label="Edit Profile"]) {
+[class*=footer]:has(>div[aria-label="Edit Profile"]) {
     display: none;
 }
-
-div[class^=activityBiteSizePopout]
->div[class^=headerContainer]
-{
-    display:none;
+[class^=activityBiteSizePopout]:has(>div[class^=headerContainer]) {
+    display: none;
 }
