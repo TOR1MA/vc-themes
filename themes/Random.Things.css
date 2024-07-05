@@ -65,3 +65,17 @@ button[aria-label="Send a gift"] {
 .messagelogger-deleted [class*="contents"] div[id*="message-content"] > :is(h1, h2, h3) {
     color: var(--status-danger, #f04747) !important;
 }
+   /*remove in vc channel header*/
+.vc-uvs-header {
+    display: none;
+}
+   /*remove edit profile button*/
+[class*="footer"]:has(>div[aria-label="Edit Profile"]) {
+    display: none;
+}
+
+div[class^=activityBiteSizePopout]
+>div[class^=headerContainer]
+{
+    display:none;
+}
