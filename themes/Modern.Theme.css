@@ -29,9 +29,7 @@
 .vc-uvs-header {
     color: #bdbdbd !important;
 }
+h3[class^=header]:has(span)
 [class^=timestamp] {
-    opacity: 0.5;
-}
-[class^=timestampInline] {
     opacity: 0.5;
 }
