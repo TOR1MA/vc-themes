@@ -69,10 +69,6 @@ button[aria-label="Send a gift"] {
 .vc-uvs-header {
     display: none;
 }
-   /*remove edit profile button*/
-[class*=footer]:has(>div[aria-label="Edit Profile"]) {
-    display: none;
-}
 [class^=activityBiteSizePopout]
 >div[class^=headerContainer] {
     display: none;
