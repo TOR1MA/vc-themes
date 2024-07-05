@@ -73,6 +73,7 @@ button[aria-label="Send a gift"] {
 [class*=footer]:has(>div[aria-label="Edit Profile"]) {
     display: none;
 }
-[class^=activityBiteSizePopout]:has(>div[class^=headerContainer]) {
+[class^=activityBiteSizePopout]
+>div[class^=headerContainer] {
     display: none;
 }
