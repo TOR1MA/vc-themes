@@ -7,7 +7,6 @@
  */
 
 @import url("https://onkofonko.github.io/theme/fixedsource.css");
-@import url("https://onkofonko.github.io/theme/fixes.css"); 
 :root {
     /*My Account Button*/
     --username-button-width: 128px; /* Adjust the with of the username button to match your discord username lenght */
