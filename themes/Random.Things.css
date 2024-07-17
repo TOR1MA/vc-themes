@@ -46,6 +46,9 @@ button[aria-label="Send a gift"] {
 #user-context-invite-to-server {
   display: none;
 }
+#user-profile-overflow-menu-invite-to-server {
+    display: none;
+}
 #channel-context-transfer-xbox-3072567030782063 {
   display: none;
 }
