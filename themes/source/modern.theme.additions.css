@@ -1,0 +1,12 @@
+    /*In a voice channel*/
+.vc-uvs-header {
+    color: #bdbdbd !important;
+}
+h3[class^=header]:has(span)
+[class^=timestamp] {
+    opacity: 0.5;
+}
+/*[class*=iconGroup]:has([class*=gameIcon]) {
+  transform: scale(0.7);
+  width: 26px;
+}*/
