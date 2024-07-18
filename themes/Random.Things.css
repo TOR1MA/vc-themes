@@ -7,6 +7,7 @@
  */
 
 @import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
+@import url("https://raw.githubusercontent.com/TOR1MA/vc-themes/main/themes/random.things.source.css");
 :root {
     /*Radial Status*/
     --rs-small-width: 2px; /* Thickness of status border for members list/dms | MUST end in px */
@@ -23,64 +24,4 @@
     --rs-invisible-color: #747f8d; /* Colour for invisible status - Note: this will only show for your own invisibility */
 
     --rs-phone-visible: none; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
-}
-
-    /*remove nitro ad*/
-[data-list-item-id*="__shop"], [data-list-item-id*="__nitro"] {display: none;}
-button[aria-label="Send a gift"] {
-  display: none;
-}
-
-    /*scroll*/
-::-webkit-scrollbar-thumb {visibility: hidden;}
-::-webkit-scrollbar-track {visibility: hidden;}
-[class^="imageWrapper_"] img[class^="lazyImg"] { object-fit: contain !important; }
-
-   /*newbie badge*/
-[class*=newMemberBadge]:before {
-    content: url(https://cdn.discordapp.com/emojis/1024751291504791654.gif?size=64&quality=lossless); /* shiggy img here */
-    transform: scale(0.32) translate(-100%, -110%);
-    display: inline-block;
-}
-   /*invite to server in user context menu*/
-#user-context-invite-to-server {
-  display: none;
-}
-#user-profile-overflow-menu-invite-to-server {
-    display: none;
-}
-#channel-context-transfer-xbox-3072567030782063 {
-  display: none;
-}
-   /*unclamp bio length in user popout*/
-[class^=descriptionClamp] {
-    display: block!important;
-    max-height: unset!important;
-}
-[class^=viewFullBio_] {
-        display: none;
-}
-   /*friend status in profile*/
-[class*="biteSize_"] :is([aria-label="Add Friend"], [aria-label="Friends"]) {
-    display: none;
-}
-/* Markdown title highlighting */
-.messagelogger-deleted [class*="contents"] div[id*="message-content"] > :is(h1, h2, h3) {
-    color: var(--status-danger, #f04747) !important;
-}
-   /*remove in vc channel header*/
-.vc-uvs-header {
-    display: none;
-}
-[class^=activityBiteSizePopout]
->div[class^=headerContainer] {
-    display: none;
-}
-/* REMOVE FUCKING ACTIVITY LIST FROM MEMBER LIST (╯°□°)╯︵ ┻━┻*/
-[class^=membersGroup]:has([role=button]){
-    display: none;
-}
-[class^=content]:has(>h3[class^=membersGroup])
->div:has([role=button]) {
-    display: none;
 }
