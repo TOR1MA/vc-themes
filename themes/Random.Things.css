@@ -7,7 +7,7 @@
  */
 
 @import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
-@import url("https://raw.githubusercontent.com/TOR1MA/vc-themes/main/themes/random.things.source.css");
+@import url("https://raw.githubusercontent.com/TOR1MA/vc-themes/main/themes/source/random.things.source.css");
 :root {
     /*Radial Status*/
     --rs-small-width: 2px; /* Thickness of status border for members list/dms | MUST end in px */
