@@ -7,6 +7,7 @@
  */
 
 @import url("https://onkofonko.github.io/theme/fixedsource.css");
+@import url("https://raw.githubusercontent.com/TOR1MA/vc-themes/main/themes/source/modern.theme.additions.css");
 :root {
     /*My Account Button*/
     --username-button-width: 128px; /* Adjust the with of the username button to match your discord username lenght */
@@ -24,15 +25,3 @@
     --rs-medium-spacing: 3px; /* Gap between avatar and status for User popout | MUST end in px */
     --rs-large-spacing: 4px; /* Gap between avatar and status for User profiles | MUST end in px */
 }
-    /*In a voice channel*/
-.vc-uvs-header {
-    color: #bdbdbd !important;
-}
-h3[class^=header]:has(span)
-[class^=timestamp] {
-    opacity: 0.5;
-}
-/*[class*=iconGroup]:has([class*=gameIcon]) {
-  transform: scale(0.7);
-  width: 26px;
-}*/
