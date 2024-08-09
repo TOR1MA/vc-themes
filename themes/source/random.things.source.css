@@ -48,10 +48,10 @@ button[aria-label="Send a gift"] {
     display: none;
 }
 /* REMOVE FUCKING ACTIVITY LIST FROM MEMBER LIST (╯°□°)╯︵ ┻━┻*/
-[class^=membersGroup]:has([role=button]){
+/*[class^=membersGroup]:has([role=button]){
     display: none;
 }
 [class^=content]:has(>h3[class^=membersGroup])
 >div:has([role=button]) {
     display: none;
-}
+}*/
