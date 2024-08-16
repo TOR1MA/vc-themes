@@ -51,3 +51,6 @@ button[aria-label="Send a gift"] {
     display: none;
 }
 .media-engine-video[class*=mirror_] { transform: none }
+[class^=header]:has([class^=headerTags]):has([class^=contextMenu]) {
+    display: none;
+}
