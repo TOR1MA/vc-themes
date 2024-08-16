@@ -50,3 +50,4 @@ button[aria-label="Send a gift"] {
 [class*=openOnHover]:has([class^=infoSection]) {
     display: none;
 }
+.media-engine-video[class*=mirror_] { transform: none }
