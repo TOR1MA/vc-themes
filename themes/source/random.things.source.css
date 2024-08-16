@@ -20,8 +20,8 @@ button[aria-label="Send a gift"] {
 #user-profile-overflow-menu-invite-to-server {
     display: none;
 }
-#channel-context-transfer-xbox-3072567030782063 {
-  display: none;
+[id*="channel-context-transfer-xbox-"] {
+  display: none !important;
 }
    /*unclamp bio length in user popout*/
 [class^=descriptionClamp] {
