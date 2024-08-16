@@ -13,6 +13,6 @@ h2[class^=header]:has(span)
 [class*=iconGroup]:has([class*=gameIcon]) {
   transform: scale(0.7);
   width: 26px;
-[class^=notice] {
+[class*=notice]:has([class^=info], [class^=buttons]) {
     z-index: 1 !important;
 }
