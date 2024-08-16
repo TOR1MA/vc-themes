@@ -43,15 +43,10 @@ button[aria-label="Send a gift"] {
 .vc-uvs-header {
     display: none;
 }
-[class^=activityBiteSizePopout]
->div[class^=headerContainer] {
-    display: none;
-}
 /* REMOVE FUCKING ACTIVITY LIST FROM MEMBER LIST (╯°□°)╯︵ ┻━┻*/
-/*[class^=membersGroup]:has([role=button]){
+[class^=membersGroup]:has([role=button]){
     display: none;
 }
-[class^=content]:has(>h3[class^=membersGroup])
->div:has([role=button]) {
+[class*=openOnHover]:has([class^=infoSection]) {
     display: none;
-}*/
+}
