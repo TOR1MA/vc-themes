@@ -25,3 +25,6 @@
     --rs-medium-spacing: 3px; /* Gap between avatar and status for User popout | MUST end in px */
     --rs-large-spacing: 4px; /* Gap between avatar and status for User profiles | MUST end in px */
 }
+[class*=notice]:has([class^=info], [class^=buttons]) {
+    z-index: 1 !important;
+}
