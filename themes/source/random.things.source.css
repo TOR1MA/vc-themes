@@ -20,6 +20,7 @@ button[aria-label="Send a gift"] {
 #user-profile-overflow-menu-invite-to-server {
     display: none;
 }
+/* Remove transfer to xbox from vc menu */
 [id*="channel-context-transfer-xbox-"] {
   display: none !important;
 }
@@ -50,7 +51,12 @@ button[aria-label="Send a gift"] {
 [class*=openOnHover]:has([class^=infoSection]) {
     display: none;
 }
+/* Mirror personal webcam preview */
 .media-engine-video[class*=mirror_] { transform: none }
 [class^=header]:has([class^=headerTags]):has([class^=contextMenu]) {
     display: none;
+}
+/* Remove app button */
+[class*=channelAppLauncher_] {
+  display: none;
 }
