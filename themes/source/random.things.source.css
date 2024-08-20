@@ -58,5 +58,5 @@ button[aria-label="Send a gift"] {
 }
 /* Remove app button */
 [class*=channelAppLauncher_] {
-  display: none;
+  display: none!important;
 }
