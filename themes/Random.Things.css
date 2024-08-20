@@ -25,6 +25,3 @@
 
     --rs-phone-visible: none; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
 }
-[class*=channelAppLauncher_] {
-  display: none;
-}
