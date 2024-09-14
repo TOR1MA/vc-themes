@@ -24,3 +24,6 @@ h2[class^=header]:has(span)
 [id="emoji-picker-tab-panel"]>[class*=emojiPicker]>[class*=inspector] {
     background-color: rgb(24, 24, 24);
 }
+[class^=itemCard]:has([class^=headerSimple_]):has([role="img"]) {
+    background-color: rgb(17, 17, 17);
+}
