@@ -58,7 +58,6 @@ button[aria-label="Send a gift"] {
 }
 /* merge app launcher to be part of the chat bar */
 [class^=channelTextArea_] > [class^=scrollableContainer_]:not(:has(>[class*=innerDisabled_])) {
-    border-top-right-radius: 0;
     border-bottom-right-radius: 0;
     margin-right: -10px;
 }
@@ -69,7 +68,6 @@ button[aria-label="Send a gift"] {
     border-bottom-right-radius: 8px;
     >[class^=buttonContainer_] {
         top: 0;
-        position:absolute;
         >button {
           width: 39.97px;
         }
