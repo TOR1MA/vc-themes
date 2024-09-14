@@ -16,14 +16,3 @@ h2[class^=header]:has(span)
 [class*=notice]:has([class^=info], [class^=buttons]) {
     z-index: 1 !important;
 }
-[id="sticker-picker-tab-panel"]>[class*=categoryList],
-[id="sticker-picker-tab-panel"]>[id="sticker-picker-grid"]>[class*=wrapper]>[class*=inspector] {
-    background-color: rgb(24, 24, 24);
-}
-[id="emoji-picker-tab-panel"]>[class*=categoryList],
-[id="emoji-picker-tab-panel"]>[class*=emojiPicker]>[class*=inspector] {
-    background-color: rgb(24, 24, 24);
-}
-[class^=itemCard]:has([class^=headerSimple_]):has([role="img"]) {
-    background-color: rgb(17, 17, 17);
-}
