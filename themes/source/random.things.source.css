@@ -56,7 +56,3 @@ button[aria-label="Send a gift"] {
 [class^=header]:has([class^=headerTags]):has([class^=contextMenu]) {
     display: none;
 }
-/* Remove app button */
-[class*=channelAppLauncher_] {
-  display: none!important;
-}
