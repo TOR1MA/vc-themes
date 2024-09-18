@@ -32,10 +32,6 @@ button[aria-label="Send a gift"] {
 [class^=viewFullBio_] {
         display: none;
 }
-   /*friend status in profile*/
-[class*="biteSize_"] :is([aria-label="Add Friend"], [aria-label="Friends"]) {
-    display: none;
-}
 /* Markdown title highlighting */
 .messagelogger-deleted [class*="contents"] div[id*="message-content"] > :is(h1, h2, h3) {
     color: var(--status-danger, #f04747) !important;
