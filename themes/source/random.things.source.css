@@ -69,3 +69,7 @@ button[aria-label="Send a gift"] {
         }
     }
 }
+/* Remove Playing/Watching/Streaming */
+[class*=activity_] > [class*=header_]{
+    display: none;
+}
