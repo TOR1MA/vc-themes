@@ -36,10 +36,6 @@ button[aria-label="Send a gift"] {
 .messagelogger-deleted [class*="contents"] div[id*="message-content"] > :is(h1, h2, h3) {
     color: var(--status-danger, #f04747) !important;
 }
-   /*remove in vc channel header*/
-.vc-uvs-header {
-    display: none;
-}
 /* REMOVE FUCKING ACTIVITY LIST FROM MEMBER LIST (╯°□°)╯︵ ┻━┻*/
 [class^=membersGroup]:has([role=button]){
     display: none;
