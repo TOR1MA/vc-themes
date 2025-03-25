@@ -48,23 +48,6 @@ button[aria-label="Send a gift"] {
 [class^=header]:has([class^=headerTags]):has([class^=contextMenu]) {
     display: none;
 }
-/* merge app launcher to be part of the chat bar */
-[class^=channelTextArea_] > [class^=scrollableContainer_]:not(:has(>[class*=innerDisabled_])) {
-    border-bottom-right-radius: 0;
-    margin-right: -10px;
-}
-[class^=channelAppLauncher_] {
-    margin-left: 0;
-    min-width: 44px;
-    border-top-right-radius: 8px;
-    border-bottom-right-radius: 8px;
-    >[class^=buttonContainer_] {
-        top: 0;
-        >button {
-          width: 39.97px;
-        }
-    }
-}
 /* Remove Playing/Watching/Streaming */
 [class*=activity_] > [class*=header_]{
     display: none;
