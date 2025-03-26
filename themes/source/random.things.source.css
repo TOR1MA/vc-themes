@@ -72,6 +72,10 @@ button[aria-label="Wyślij prezent"] {
     --background-secondary-alt: color-mix(in oklab, var(--neutral-95) 100%, var(--theme-base-color, #000) var(--theme-base-color-amount, 0%));
     --bg-surface-overlay: color-mix(in oklab, var(--primary-800) 100%, var(--theme-base-color, #000) var(--theme-base-color-amount, 0%));
 }
+.theme-darker {
+    --background-secondary-alt: color-mix(in oklab,var(--neutral-82) 100%, var(--theme-base-color,#000) var(--theme-base-color-amount, 0%));
+    --bg-surface-overlay: color-mix(in oklab, var(--primary-800) 100%, var(--theme-base-color, #000) var(--theme-base-color-amount, 0%));
+}
 
 .visual-refresh .button__74017,.buttonContents_e6e74f:not([class*="enabled__67645"]) {
     transform: scale(1.25) !important;
