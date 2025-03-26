@@ -1,30 +1,36 @@
-    /*remove nitro ad*/
+/* Remove nitro ad */
 [data-list-item-id*="__shop"], [data-list-item-id*="__nitro"] {display: none;}
-button[aria-label="Send a gift"] {
+button[aria-label="Send a gift"],
+button[aria-label="Wyślij prezent"] {
   display: none;
 }
-    /*scroll*/
+
+/* Scroll */
 ::-webkit-scrollbar-thumb {visibility: hidden;}
 ::-webkit-scrollbar-track {visibility: hidden;}
 [class^="imageWrapper_"] img[class^="lazyImg"] { object-fit: contain !important; }
-   /*newbie badge*/
+
+/* Newbie badge */
 [class*=newMemberBadge]:before {
     content: url(https://cdn.discordapp.com/emojis/1024751291504791654.gif?size=64&quality=lossless); /* shiggy img here */
     transform: scale(0.32) translate(-100%, -110%);
     display: inline-block;
 }
-   /*invite to server in user context menu*/
+
+/* Invite to server in user context menu */
 #user-context-invite-to-server {
   display: none;
 }
 #user-profile-overflow-menu-invite-to-server {
     display: none;
 }
+
 /* Remove transfer to xbox from vc menu */
 [id*="channel-context-transfer-xbox-"] {
   display: none !important;
 }
-   /*unclamp bio length in user popout*/
+
+/* Unclamp bio length in user popout */
 [class^=descriptionClamp] {
     display: block!important;
     max-height: unset!important;
@@ -32,21 +38,44 @@ button[aria-label="Send a gift"] {
 [class^=viewFullBio_] {
         display: none;
 }
-/* Markdown title highlighting */
-.messagelogger-deleted [class*="contents"] div[id*="message-content"] > :is(h1, h2, h3) {
-    color: var(--status-danger, #f04747) !important;
-}
-/* REMOVE FUCKING ACTIVITY LIST FROM MEMBER LIST (╯°□°)╯︵ ┻━┻*/
+
+/* REMOVE FUCKING ACTIVITY LIST FROM MEMBER LIST (╯°□°)╯︵ ┻━┻ */
 [class*='membersGroup']:has([role=button]),
 [class*='member'] [class*='container']:has([class*='badges']) {
   display: none;
 }
+
 /* Mirror personal webcam preview */
 .media-engine-video[class*=mirror_] { transform: none }
 [class^=header]:has([class^=headerTags]):has([class^=contextMenu]) {
     display: none;
 }
+
 /* Remove Playing/Watching/Streaming */
 [class*=activity_] > [class*=header_]{
     display: none;
+}
+
+/* Aligned Chat Box and Typing indicator */
+.container_c48ade {
+  --custom-chat-input-margin-bottom: 22px;
+}
+:root {
+  --custom-channel-textarea-text-area-height: 42px;
+}
+.visual-refresh .base_b88801 {
+  font-size: 13.5px;
+  height: 18px;
+}
+
+.theme-midnight {
+    --background-secondary-alt: color-mix(in oklab, var(--neutral-95) 100%, var(--theme-base-color, #000) var(--theme-base-color-amount, 0%));
+    --bg-surface-overlay: color-mix(in oklab, var(--primary-800) 100%, var(--theme-base-color, #000) var(--theme-base-color-amount, 0%));
+}
+
+.visual-refresh .button__74017,.buttonContents_e6e74f:not([class*="enabled__67645"]) {
+    transform: scale(1.25) !important;
+}
+.visual-refresh .spriteContainer__04eed {
+   transform: scale(1.1) !important;
 }
