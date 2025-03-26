@@ -37,11 +37,9 @@ button[aria-label="Send a gift"] {
     color: var(--status-danger, #f04747) !important;
 }
 /* REMOVE FUCKING ACTIVITY LIST FROM MEMBER LIST (╯°□°)╯︵ ┻━┻*/
-[class^=membersGroup]:has([role=button]){
-    display: none;
-}
-[class*=openOnHover]:has([class^=infoSection]) {
-    display: none;
+[class*='membersGroup']:has([role=button]),
+[class*='member'] [class*='container']:has([class*='badges']) {
+  display: none;
 }
 /* Mirror personal webcam preview */
 .media-engine-video[class*=mirror_] { transform: none }
