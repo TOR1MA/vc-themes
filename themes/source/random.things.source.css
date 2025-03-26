@@ -85,3 +85,35 @@ button[aria-label="Wyślij prezent"] {
 }
 
 [class*=voiceBar_] {display: none;}
+
+/* fuck off bar */
+.bar_c38106{
+    z-index: 28371983721897;
+}
+.title_c38106{
+    background-color: transparent;
+    background: linear-gradient(to bottom, var(--background-base-lowest), #00000000);
+}
+.title_a7d72e{
+    -webkit-app-region: drag;
+}
+
+.sidebar_c48ade{
+    overflow: visible !important;
+    position: relative;
+}
+
+.sidebarList_c48ade{
+    margin-left: 72px;
+}
+
+.wrapper_ef3116{
+    position: absolute;
+    top: -35px;
+    height: calc(100vh - 65px);
+    /* padding-top: 10px; */
+}
+
+[class^="stack_dbd263 scroller_ef3116"]{
+    padding-top: 40px !important;
+}
