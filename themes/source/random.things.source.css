@@ -57,15 +57,19 @@ button[aria-label="Wyślij prezent"] {
 }
 
 /* Aligned Chat Box and Typing indicator */
-.container_c48ade {
-  --custom-chat-input-margin-bottom: 22px;
-}
-:root {
-  --custom-channel-textarea-text-area-height: 42px;
-}
-.visual-refresh .base_b88801 {
-  font-size: 13.5px;
-  height: 18px;
+.visual-refresh {
+    --custom-channel-textarea-text-area-height: 56px;
+    .form_f75fb0 {
+        display: flex;
+        flex-direction: column;
+    }
+    .channelTextArea_f75fb0 {
+        margin-bottom: 8px;
+    }
+    .base_b88801 {
+        position: static;
+        order: -1;
+    }
 }
 
 .theme-midnight {
