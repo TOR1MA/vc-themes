@@ -91,15 +91,13 @@ button[aria-label="Wyślij prezent"] {
 [class*=voiceBar_] {display: none;}
 
 /* fuck off bar */
-.sidebar_c48ade {
+/* .sidebar_c48ade {
     margin-top: -34px;
 }
-/* remove weird top-left corner */
 .sidebarList_c48ade {
     border-top-left-radius: 0 !important;
     border-top: 0px !important;
 }
-/* fix lack of padding on server container*/
 .tutorialContainer__1f388 {
     padding-top: 0.66rem;
-}
+} */
