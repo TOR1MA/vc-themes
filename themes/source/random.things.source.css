@@ -8,6 +8,7 @@ button[aria-label="Wyślij prezent"] {
 /* Scroll */
 ::-webkit-scrollbar-thumb {visibility: hidden;}
 ::-webkit-scrollbar-track {visibility: hidden;}
+::-webkit-scrollbar {display: none;}
 [class^="imageWrapper_"] img[class^="lazyImg"] { object-fit: contain !important; }
 
 /* Newbie badge */
