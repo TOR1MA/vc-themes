@@ -61,11 +61,9 @@ button[aria-label="Wyślij prezent"] {
     --bg-surface-overlay: color-mix(in oklab, var(--primary-800) 100%, var(--theme-base-color, #000) var(--theme-base-color-amount, 0%));
 }
 
-.visual-refresh ._740174f3d6a2c8fe-button,.buttonContents_e6e74f:not([class*="_67645e1530f1195d-enabled"]) {
-    transform: scale(1.25) !important;
-}
-.visual-refresh ._04eede68d145ae81-spriteContainer {
-   transform: scale(1.1) !important;
+/* Scale up chat buttons */
+.buttons__74017 .expression-picker-chat-input-button, .app-launcher-entrypoint {
+   transform: scale(1.25) !important;
 }
 
 [class*=voiceBar_] {display: none;}
