@@ -52,22 +52,6 @@ button[aria-label="Wyślij prezent"] {
     display: none;
 }
 
-/* Aligned Chat Box and Typing indicator */
-.visual-refresh {
-    --custom-channel-textarea-text-area-height: 56px;
-    .f75fb00fb7356cbe-form {
-        display: flex;
-        flex-direction: column;
-    }
-    .f75fb00fb7356cbe-channelTextArea {
-        margin-bottom: 8px;
-    }
-    .b8880176888cc928-base {
-        position: static;
-        order: -1;
-    }
-}
-
 .theme-midnight {
     --background-secondary-alt: color-mix(in oklab, var(--neutral-95) 100%, var(--theme-base-color, #000) var(--theme-base-color-amount, 0%));
     --bg-surface-overlay: color-mix(in oklab, var(--primary-800) 100%, var(--theme-base-color, #000) var(--theme-base-color-amount, 0%));
