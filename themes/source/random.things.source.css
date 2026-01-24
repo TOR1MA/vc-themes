@@ -1,7 +1,7 @@
 /* Remove nitro ad */
 [data-list-item-id*="__shop"], [data-list-item-id*="__nitro"] {display: none;}
-button[aria-label="Send a gift"],
-button[aria-label="Wyślij prezent"] {
+[aria-label="Send a gift"],
+[aria-label="Wyślij prezent"] {
   display: none;
 }
 
@@ -68,14 +68,7 @@ button[aria-label="Wyślij prezent"] {
 
 [class*=voiceBar_] {display: none;}
 
-/* fuck off bar */
-/* ._5e434347c823b592-sidebar {
-    margin-top: -34px;
+/* Capitalize text chats*/
+.name__2ea32 {
+text-transform: capitalize;
 }
-._5e434347c823b592-sidebarList {
-    border-top-left-radius: 0 !important;
-    border-top: 0px !important;
-}
-._1f388bcaa446c0c8-tutorialContainer {
-    padding-top: 0.66rem;
-} */
