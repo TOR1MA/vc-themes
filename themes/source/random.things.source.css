@@ -1,6 +1,6 @@
 /* Remove nitro ad */
 [data-list-item-id*="__shop"], [data-list-item-id*="__nitro"] {display: none;}
-[aria-label="Send a gift"],
+[aria-label="Give a Gift"],
 [aria-label="Wyślij prezent"] {
   display: none;
 }
