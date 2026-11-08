@@ -62,13 +62,13 @@
 }
 
 /* Scale up chat buttons */
-.buttons__74017 .expression-picker-chat-input-button, .app-launcher-entrypoint {
+.buttons_2x8-Qn .expression-picker-chat-input-button, .app-launcher-entrypoint {
    transform: scale(1.25) !important;
 }
 
 [class*=voiceBar_] {display: none;}
 
 /* Capitalize text chats*/
-.name__2ea32 {
+.name_TNyK-N {
 text-transform: capitalize;
 }
